@@ -13,9 +13,16 @@ dependencies:
     sdk: flutter
 
   app_packages_component:
-    path: ../app_packages_component
+    git:
+      url: git@github.com:faustobdls/packages_arq.git
+      ref: main
+      path: app_packages_component
   app_packages_theme:
-    path: ../app_packages_theme
+    git:
+      url: git@github.com:faustobdls/packages_arq.git
+      ref: main
+      path: app_packages_theme
+    # path: ../app_packages_theme
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
   app_packages_theme:
-    path: ../app_packages_theme
+    git:
+      url: git@github.com:faustobdls/packages_arq.git
+      ref: main
+      path: app_packages_theme
 
 dev_dependencies:
   flutter_test:
